@@ -1,0 +1,148 @@
+
+1215
+position:relative;
+1216
+width:100%
+1217
+}
+1218
+.share-buttons li .sharing-platform-button:focus,.share-buttons li .sharing-platform-button:hover{
+1219
+background-color:rgba(128,128,128,.1);
+1220
+outline:0
+1221
+}
+1222
+.share-buttons li svg[class*=" sharing-"],.share-buttons li svg[class^=sharing-]{
+1223
+position:absolute;
+1224
+top:10px
+1225
+}
+1226
+.share-buttons li span.sharing-platform-button{
+1227
+position:relative;
+1228
+top:0
+1229
+}
+1230
+.share-buttons li .platform-sharing-text{
+1231
+display:block;
+1232
+font-size:16px;
+1233
+line-height:48px;
+1234
+white-space:nowrap
+1235
+}
+1236
+.share-buttons li .platform-sharing-text{
+1237
+margin-$startSide:56px
+1238
+}
+1239
+.sidebar-container{
+1240
+background-color:$(sidebar.backgroundColorBottom);
+1241
+max-width:$(sidebar.width);
+1242
+overflow-y:auto;
+1243
+-webkit-transition-property:-webkit-transform;
+1244
+transition-property:-webkit-transform;
+1245
+transition-property:transform;
+1246
+transition-property:transform,-webkit-transform;
+1247
+-webkit-transition-duration:.3s;
+1248
+transition-duration:.3s;
+1249
+-webkit-transition-timing-function:cubic-bezier(0,0,.2,1);
+1250
+transition-timing-function:cubic-bezier(0,0,.2,1);
+1251
+width:$(sidebar.width);
+1252
+z-index:101;
+1253
+-webkit-overflow-scrolling:touch
+1254
+}
+1255
+.sidebar-container .navigation{
+1256
+line-height:0;
+1257
+padding:16px
+1258
+}
+1259
+.sidebar-container .sidebar-back{
+1260
+cursor:pointer
+1261
+}
+1262
+.sidebar-container .widget{
+1263
+background:0 0;
+1264
+margin:0 16px;
+1265
+padding:16px 0
+1266
+}
+1267
+.sidebar-container .widget .title{
+1268
+color:$(widget.title.color);
+1269
+margin:0
+1270
+}
+1271
+.sidebar-container .widget ul{
+1272
+list-style:none;
+1273
+margin:0;
+1274
+padding:0
+1275
+}
+1276
+.sidebar-container .widget ul ul{
+1277
+margin-$startSide:1em
+1278
+}
+1279
+.sidebar-container .widget li{
+1280
+font-size:16px;
+1281
+line-height:normal
+1282
+}
+1283
+.sidebar-container .widget+.widget{
+1284
+border-top:1px dashed $(sidebar.separator.color)
+1285
+}
+1286
+.BlogArchive li{
+1287
+margin:16px 0
+Template: Edit Template
